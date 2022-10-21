@@ -1,0 +1,20 @@
+{
+  "name": "tinycolor",
+  "description": "Basic demo to include tinycolor as an ESM module w/ Rollup",
+  "license": "UNLICENSE",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "tinycolor2": "^1.4.2",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^23",
+    "@rollup/plugin-node-resolve": "^15",
+    "@rollup/plugin-virtual": "^3",
+    "rollup": "^3"
+  },
+  "scripts": {
+    "rollup-external": "rollup --config"
+  }
+}
